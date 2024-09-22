@@ -3,6 +3,8 @@
 - 📖 [Remix docs](https://remix.run/docs)
 
 This converts components from [danmindru/page-ui](https://github.com/danmindru/page-ui) into Remix-friendly components.
+- `page-ui` components live under `/components/page-ui`
+- Examples live under `/components/examples` and are used in the main `_index.tsx` route.
 
 ## Development
 
