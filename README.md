@@ -2,6 +2,8 @@
 
 - 📖 [Remix docs](https://remix.run/docs)
 
+This converts components from [https://github.com/danmindru/page-ui](page-ui) into Remix-friendly components.
+
 ## Development
 
 Run the dev server:
