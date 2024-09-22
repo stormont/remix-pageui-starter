@@ -1,10 +1,12 @@
-# Welcome to Remix!
-
-- 📖 [Remix docs](https://remix.run/docs)
+# Remix + Page-UI
 
 This converts components from [danmindru/page-ui](https://github.com/danmindru/page-ui) into Remix-friendly components.
 - `page-ui` components live under `./app/components/page-ui`. Paths were renamed to consistently use `kebab-case`.
 - Examples live under `./app/components/examples` and are used in the main `_index.tsx` route.
+
+## Welcome to Remix!
+
+- 📖 [Remix docs](https://remix.run/docs)
 
 ## Development
 

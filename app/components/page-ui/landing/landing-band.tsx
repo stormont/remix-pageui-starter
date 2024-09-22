@@ -44,8 +44,7 @@ export const LandingBandSection = ({
       <div className="w-full p-6 max-w-full container-wide gap-6 items-center lg:flex lg:flex-row">
         <div
           className={clsx(
-            'w-full lg:w-auto flex flex-col flex-shrink-0 max-w-lg xl:max-w-3xl',
-            withBackground ? 'text-black' : '',
+            'w-full lg:w-auto flex flex-col flex-shrink-0 max-w-lg xl:max-w-3xl'
           )}
         >
           {title ? (
@@ -68,7 +67,6 @@ export const LandingBandSection = ({
         <div
           className={clsx(
             'flex gap-8 lg:gap-12 ml-auto mt-12 lg:mt-0 lg:max-w-lg xl:max-w-none flex-shrink',
-            withBackground ? 'text-black' : '',
             className,
           )}
         >

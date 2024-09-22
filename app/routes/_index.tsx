@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import { Header } from '~/components/page-ui/ui/header';
+import { Footer } from '~/components/page-ui/ui/footer';
 import { Component as Hero } from '~/components/examples/hero';
 import { Component as Section1 } from '~/components/examples/section-1';
 import { Component as Section2 } from '~/components/examples/section-2';
@@ -25,8 +27,10 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  const logo = <img src="/static/images/logo.webp" alt="Site Logo" height={40} width={40} />;
   return (
     <>
+      <Header hideMenuItems={false} logo={logo} logoDark={logo} />
       <Hero />
       <Section1 />
       <Section2 />
@@ -44,6 +48,7 @@ export default function Index() {
       <ProductTour />
       <FAQ />
       <SocialProof />
+      <Footer />
     </>
   );
 }
